@@ -150,14 +150,19 @@ p {
 }
 .bottom {
   display: flex;
-  height: auto;
+  height: 1000px;
   width: 1200px;
   margin: auto;
+  background: rgb(236,204, 69);
+  
 }
 
 .tabs {
   width: 900px;
   background: white;
+  border-style: ridge;
+  background-image: url("./woodbg.jpg");
+ 
 
  
 }
@@ -181,12 +186,31 @@ li {
 
 }
 
+#reservations {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}
 input{
     width: 300px;
     height: 50px;
     margin: 10px;
 }
 
+select {
+    width: 100px;
+}
+
+button {
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+    background: green;
+    border-radius: 25px;
+    align-items: center;
+
+
+}
 
 .photo {
   width: 300px;
@@ -194,5 +218,19 @@ input{
 }
 
 #menuapi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
 
+}
+
+.menuitem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+
+}
+
+#menu {
+    background-image: url("./woodbg.jpg");
 }

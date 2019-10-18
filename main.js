@@ -21,12 +21,12 @@ $(document).ready(function(){
             // const price=appetizers.price
             // const description=appetizers.description
             const html = data.appetizers.map(item => (
-             `
-            name: ${item.name}<br>
-            price: $${item.price}<br>
-            description: ${item.description}<br>
-            <br>
-            `
+                `
+                <div id="menuapi">${item.name} ($${item.price})<br>
+                ${item.description}<br>
+                <br></div>
+                <br>
+                `
             ))
             
 
@@ -41,12 +41,11 @@ $(document).ready(function(){
             // const price=appetizers.price
             // const description=appetizers.description
             const html = data.entrees.map(item => (
-             `
-            name: ${item.name}<br>
-            price: $${item.price}<br>
-            description: ${item.description}<br>
-            <br>
-            `
+                `
+                <div id="menuapi">${item.name} ($${item.price})<br>
+                ${item.description}<br>
+                <br></div>
+                `
             ))
             
 
@@ -61,12 +60,11 @@ $(document).ready(function(){
             // const price=appetizers.price
             // const description=appetizers.description
             const html = data.desserts.map(item => (
-             `
-            name: ${item.name}<br>
-            price: $${item.price}<br>
-            description: ${item.description}<br>
-            <br>
-            `
+                `
+                <div id="menuapi">${item.name} ($${item.price})<br>
+                ${item.description}<br>
+                <br></div>
+                `
             ))
             
 
