@@ -7,7 +7,55 @@ html {
   box-sizing: inherit;
 }
 
+body{
+    background: black;
+}
 .container {
+
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: rgb(236,204, 69);
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+  
+  
+}
+
+
+
+.logo {
+    width: 600px;
+   
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: end;
+    width: 600px;
+    align-items: center;
+}
+
+i {
+    width: 100px;
+    height: 100px;
+}
+#image {
+
   width: 1200px;
   display: flex;
   margin: auto;
@@ -24,11 +72,6 @@ html {
   border-bottom: solid black 1px;
 }
 
-header {
-  background: pink;
-  height: 200px;
-}
-
 .logo {
   width: 600px;
 }
@@ -43,6 +86,7 @@ i {
   height: 45px;
 }
 img {
+
   height: 400px;
 }
 
@@ -54,6 +98,7 @@ div .info > #news,
 #specials,
 #locations {
   border: solid black 1px;
+  width: 400px;
   height: 300px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
@@ -90,14 +135,59 @@ p {
   padding-left: 5px;
   margin: 5px 5px 2px 5px;
 }
+#specials {
+  border: solid black 1px;
+  width: 395px;
+  height: 300px;
+  background: yellow;
+}
+
+#locations {
+  border: solid black 1px;
+  width: 395px;
+  height: 300px;
+  background: yellow;
+}
 .bottom {
   display: flex;
+  height: 600px;
 }
 
 .tabs {
   width: 900px;
-  background: lightblue;
+  background: white;
+
+ 
 }
+
+ul {
+    display: flex;
+    padding: 0px;
+    list-style: none;
+
+}
+
+li {
+    padding-left: 20px;
+}
+
+
+
+
+.content {
+    display: none;
+    width: 800px;
+    padding-left: 10px;
+  
+
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+}
+
 
 .photo {
   width: 300px;

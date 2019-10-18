@@ -15,7 +15,7 @@
     <div class="container">
       <header class="header">
         <div class="logo">
-          logo
+           <img src="./Barlogo.png">
         </div>
 
         <div class="icon">
@@ -24,9 +24,8 @@
           <i class="fa fa-instagram"></i>
         </div>
       </header>
-      <img
-        src="https://waycoolcookingschool.com/wp-content/uploads/2018/01/1200x300.png"
-      />
+
+      <img id="image" src="https://waycoolcookingschool.com/wp-content/uploads/2018/01/1200x300.png" />
       <div class="info">
         <div id="news">
           <h1>Latest News</h1>
@@ -61,15 +60,48 @@
       </div>
     </div>
       <div class="bottom">
-        <div class="tabs">tab</div>
+        <div class="tabs">
+            <ul>
+              <li> <a href="#story"> Our Story </a> </li>
+              <li><a href="#menu"> Menu</a> </li>
+              <li><a href="#reservations"> Reservation </a> </li>
+            </ul>  
+              <div id="story" class="content">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio nostrum eligendi, impedit nulla amet cumque maxime suscipit architecto hic possimus id sequi in eos, eveniet temporibus ullam voluptatibus rerum. Perferendis voluptates voluptatum reiciendis fugiat in expedita facere odio ratione cupiditate magnam id eveniet pariatur debitis eligendi aliquid ducimus sit explicabo vitae inventore amet, sunt voluptatem qui corporis. Cum expedita eaque consectetur quo. Soluta voluptatibus natus culpa perspiciatis placeat fuga reiciendis ipsa exercitationem? Perspiciatis animi consectetur eius voluptatum in, labore repellat aut reiciendis iusto eveniet quos doloribus consequatur earum magnam, fuga eligendi incidunt pariatur? Accusamus, alias molestiae? Necessitatibus soluta reiciendis accusantium impedit expedita nisi officiis, consectetur, excepturi enim repellat odio libero nostrum tempore voluptates iure dolor assumenda eum mollitia laudantium quod quis praesentium? Excepturi, voluptates fugit accusamus totam dolores, deserunt sint, qui repellendus aspernatur reiciendis suscipit enim? Quo voluptas tempore recusandae eos dolore, dolorum ea ex, repellat beatae tenetur cum perferendis deserunt qui, ipsum rem sunt eligendi cumque modi quisquam fugit fuga delectus quibusdam consectetur iusto! Harum est modi ad ex illum, corporis nulla eius veniam, voluptatibus cupiditate dicta! Tempora numquam hic laboriosam eum mollitia facere obcaecati soluta fugiat nemo amet possimus culpa, doloribus, earum reiciendis praesentium perspiciatis quia magni. Dolorem, ratione. Magnam iure labore ex enim dolore, accusamus officia quas eos odio aliquam nulla perferendis, debitis, itaque non vero inventore. Soluta velit et, recusandae ipsam quos quas excepturi necessitatibus laborum quis, quasi perferendis amet aperiam voluptas iste enim quidem. Eaque, quam architecto aperiam quia porro itaque. Maxime, distinctio repellat. Consectetur sapiente fugit similique ipsa excepturi officiis odit error modi ipsum deleniti suscipit odio alias accusamus nulla quibusdam iste dicta, nemo architecto delectus aspernatur nihil? Blanditiis voluptatibus voluptates voluptas vero delectus minima nulla, quas esse, quae aliquid harum facilis expedita fugiat. Eaque quibusdam optio nulla dignissimos laboriosam consectetur incidunt, ipsam facere fuga rerum quasi eveniet ut natus modi, dolorem illo asperiores similique doloribus! Minus eaque tenetur iste magni commodi, corrupti earum amet quis enim distinctio totam qui omnis vel ipsum error quam exercitationem labore ipsa quo dolorum. Magnam quo fugiat consequatur excepturi accusamus at reiciendis explicabo ea, voluptates sed iste fuga est! Fugiat quam ipsum provident odio totam cupiditate. Beatae quam architecto cum itaque nam non velit eveniet consequuntur voluptatum explicabo illum tempore sapiente dolorem sit quidem sed, earum deserunt corrupti dolore iste voluptatibus natus repellendus minima. Facilis aperiam incidunt doloribus at totam. Optio commodi similique corporis ipsa! Ipsa corrupti cum perferendis, vel voluptas nesciunt reprehenderit facere, nulla culpa assumenda animi ducimus quidem error corporis ipsam itaque deleniti sit porro aperiam distinctio nam officia. Reprehenderit cupiditate laborum nisi sapiente a autem nihil mollitia eligendi? Enim natus blanditiis laboriosam culpa inventore adipisci eligendi! Sunt consectetur quibusdam voluptatibus alias. Aut quisquam hic molestias quam corporis iusto quae culpa exercitationem labore debitis, est incidunt. Consequuntur eum numquam quos eligendi nostrum est ex laborum porro. Fuga quam praesentium sed debitis cum at omnis repudiandae rem laborum. Voluptatum sunt perspiciatis eum, optio reiciendis fuga hic aut qui tempore, aliquam placeat id. Eaque molestias vel aut repellendus?  </p>
+              </div>
+            
+              <div id="menu" class="content">
+                <div id="menuapi"></p>
+              </div>
+            
+              <div id="reservations" class="content">
+                  <label for="name">Full Name</label><br>
+                  <input type="text" id="name" /><br>
+                  <label for="guest">Number of Guest</label><br>
+                  <input type="number" id="guest" /><br>
+                  <label for="date">Date</label><br>
+                  <input type="date" id="date" /><br>
+                  <label for="notes">Special Notes</label><br>
+                  <textarea rows="6" cols="50" id="notes"></textarea><br>
+                  <label for="occupation">Seating Preference</label><BR>
+                    <select name="seating">
+                        <option value="Indoor">Indoor</option>
+                        <option value="Outdoor">Outdoor</option>
+                        <option value="first">First Available</option>
+                    </select><br>
+
+                    <button type="button">Reserve Table</button>
+        
+              </div>
+       
+        </div>
         <div class="photo">photo</div>
       </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="main.js"></script>
   </body>
 </html>
