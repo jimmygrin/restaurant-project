@@ -7,55 +7,10 @@ html {
   box-sizing: inherit;
 }
 
-body{
-    background: black;
+body {
+  background: black;
 }
 .container {
-
-    width: 1200px;
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    background: rgb(236,204, 69);
-    height:200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: solid black 1px;
-  
-  
-}
-
-
-
-.logo {
-    width: 600px;
-   
-}
-
-.logo img {
-    width: 150px;
-    height: 150px;
-}
-
-
-.icons{
-    display: flex;
-    justify-content: end;
-    width: 600px;
-    align-items: center;
-}
-
-i {
-    width: 100px;
-    height: 100px;
-}
-#image {
-
   width: 1200px;
   display: flex;
   margin: auto;
@@ -63,13 +18,51 @@ i {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-  background: rgb(236,204, 69);
+header {
+  background: rgb(236, 204, 69);
   height: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: solid black 1px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.icons {
+  display: flex;
+  justify-content: end;
+  width: 600px;
+  align-items: center;
+}
+
+i {
+  width: 100px;
+  height: 100px;
+}
+#image {
+  background-image: url(top.jpeg);
+  width: 1200px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 194%;
+  background-position-x: -766px;
+  background-position-y: -672px;
+  border-radius: 67px;
+}
+
+.header {
+
+  background: rgb(236,204, 69);
+  height: 200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid black 1px;
+  margin-bottom: 18px;
 }
 
 .logo {
@@ -85,11 +78,6 @@ i {
   width: 45px;
   height: 45px;
 }
-img {
-
-  height: 400px;
-}
-
 .info {
   display: flex;
 }
@@ -97,17 +85,23 @@ img {
 div .info > #news,
 #specials,
 #locations {
-  border: solid black 1px;
   width: 400px;
   height: 300px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   text-align: start;
+  border-radius: 55px;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 #news,
 #specials,
 #locations {
+  background: rgb(236, 204, 69);
   width: 400px;
+}
+#news {
+  margin-right: 5px;
 }
 .special {
   background-image: url(./burger.jpeg);
@@ -121,32 +115,39 @@ div .info > #news,
   padding: 0;
   margin: auto;
 }
-h1 {
-  border-bottom: 2px solid #ccc;
+.betty {
   text-align: center;
+}
+h1 {
+  border-bottom: 2px solid #666;
+  text-align: center;
+  margin: 17px;
 }
 span {
   font-size: 20px;
   font-style: italic;
   font-weight: bold;
-  padding: 10px;
+  padding: 48px;
 }
 p {
-  padding-left: 5px;
-  margin: 5px 5px 2px 5px;
+  padding-left: 12px;
+  margin: 2px 1px 14px -6px;
 }
 #specials {
   border: solid black 1px;
   width: 395px;
   height: 300px;
-  background: yellow;
+}
+iframe {
+  padding-top: 10px;
 }
 
 #locations {
   border: solid black 1px;
-  width: 395px;
+  font-size: 16px;
   height: 300px;
-  background: yellow;
+  text-align: center;
+  margin-left: 5px;
 }
 .bottom {
   display: flex;
@@ -160,31 +161,31 @@ p {
 .tabs {
   width: 900px;
   background: white;
+
   border-style: ridge;
   background-image: url("./woodbg.jpg");
  
 
  
+
 }
 
 ul {
-    display: flex;
-    padding: 0px;
-    list-style: none;
-
+  display: flex;
+  padding: 0px;
+  list-style: none;
 }
 
 li {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .content {
-    display: none;
-    width: 800px;
-    padding-left: 10px;
-  
-
+  display: none;
+  width: 800px;
+  padding-left: 10px;
 }
+
 
 #reservations {
     /* display: flex;
@@ -212,10 +213,12 @@ button {
 
 }
 
+
 .photo {
   width: 300px;
   background: gray;
 }
+
 
 #menuapi {
     font-family: Arial, Helvetica, sans-serif;
@@ -234,3 +237,16 @@ button {
 #menu {
     background-image: url("./woodbg.jpg");
 }
+
+.Itwo,
+.Ione,
+.Ithree,
+.Ifour,
+.Ifive {
+  height: 190px;
+  width: 349px;
+  align-items: center;
+  padding: 0;
+  margin: auto;
+}
+
