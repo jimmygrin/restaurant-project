@@ -126,6 +126,7 @@ li {
 .content {
     display: none;
     width: 800px;
+    padding-left: 10px;
   
 
 }
