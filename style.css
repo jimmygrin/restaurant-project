@@ -54,8 +54,10 @@ i {
 }
 
 .header {
-  background: rgb(236, 204, 69);
-  height: 150px;
+
+  background: rgb(236,204, 69);
+  height: 200px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -149,12 +151,23 @@ iframe {
 }
 .bottom {
   display: flex;
-  height: 600px;
+  height: 1000px;
+  width: 1200px;
+  margin: auto;
+  background: rgb(236,204, 69);
+  
 }
 
 .tabs {
   width: 900px;
   background: white;
+
+  border-style: ridge;
+  background-image: url("./woodbg.jpg");
+ 
+
+ 
+
 }
 
 ul {
@@ -173,15 +186,56 @@ li {
   padding-left: 10px;
 }
 
-input {
-  width: 300px;
-  height: 50px;
-  margin: 10px;
+
+#reservations {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
 }
+input{
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+}
+
+select {
+    width: 100px;
+}
+
+button {
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+    background: green;
+    border-radius: 25px;
+    align-items: center;
+
+
+}
+
 
 .photo {
   width: 300px;
   background: gray;
+}
+
+
+#menuapi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+.menuitem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+
+}
+
+#menu {
+    background-image: url("./woodbg.jpg");
 }
 
 .Itwo,
@@ -195,3 +249,4 @@ input {
   padding: 0;
   margin: auto;
 }
+
