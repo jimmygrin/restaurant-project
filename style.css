@@ -64,8 +64,8 @@ i {
 }
 
 .header {
-  background: pink;
-  height: 150px;
+  background: rgb(236,204, 69);
+  height: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -150,7 +150,9 @@ p {
 }
 .bottom {
   display: flex;
-  height: 600px;
+  height: auto;
+  width: 1200px;
+  margin: auto;
 }
 
 .tabs {
@@ -171,9 +173,6 @@ li {
     padding-left: 20px;
 }
 
-
-
-
 .content {
     display: none;
     width: 800px;
@@ -192,4 +191,8 @@ input{
 .photo {
   width: 300px;
   background: gray;
+}
+
+#menuapi {
+
 }
