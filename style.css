@@ -54,8 +54,7 @@ i {
 }
 
 .header {
-
-  background: rgb(236,204, 69);
+  background: rgb(236, 204, 69);
   height: 200px;
 
   display: flex;
@@ -75,6 +74,7 @@ i {
 }
 
 i {
+  font-size: 20px;
   width: 45px;
   height: 45px;
 }
@@ -154,20 +154,14 @@ iframe {
   height: 1000px;
   width: 1200px;
   margin: auto;
-  background: rgb(236,204, 69);
-  
 }
 
 .tabs {
   width: 900px;
   background: white;
-
+  border-radius: 55px;
   border-style: ridge;
   background-image: url("./woodbg.jpg");
- 
-
- 
-
 }
 
 ul {
@@ -186,56 +180,49 @@ li {
   padding-left: 10px;
 }
 
-
 #reservations {
-    /* display: flex;
+  /* display: flex;
     justify-content: center;
     flex-direction: column; */
 }
-input{
-    width: 300px;
-    height: 50px;
-    margin: 10px;
+input {
+  width: 300px;
+  height: 50px;
+  margin: 10px;
 }
 
 select {
-    width: 100px;
+  width: 100px;
 }
 
 button {
-    font-size: 30px;
-    width: 200px;
-    height: 100px;
-    background: green;
-    border-radius: 25px;
-    align-items: center;
-
-
+  font-size: 30px;
+  width: 200px;
+  height: 100px;
+  background: green;
+  border-radius: 25px;
+  align-items: center;
 }
-
 
 .photo {
   width: 300px;
-  background: gray;
+  border-radius: 55px;
 }
 
-
 #menuapi {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: white;
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
 }
 
 .menuitem {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    color: white;
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: white;
 }
 
 #menu {
-    background-image: url("./woodbg.jpg");
+  background-image: url("./woodbg.jpg");
 }
 
 .Itwo,
@@ -243,10 +230,23 @@ button {
 .Ithree,
 .Ifour,
 .Ifive {
-  height: 190px;
+  height: 331px;
   width: 349px;
   align-items: center;
   padding: 0;
   margin: auto;
+  border-radius: 55px;
+  margin-left: 5px;
 }
 
+footer {
+  background-color: rgb(236, 204, 69);
+  width: 1200px;
+  height: 100px;
+  font-size: 20px;
+  color: black;
+  margin-top: 50px;
+  border-radius: 55px;
+  text-align: center;
+  line-height: 177px;
+}
